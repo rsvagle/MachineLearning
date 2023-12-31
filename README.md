@@ -1,2 +1,2 @@
-# Machine Learning
-A repo for my machine learning notebooks and project
+# Machine Learning Studies
+A repository for my machine learning notebooks and projects
