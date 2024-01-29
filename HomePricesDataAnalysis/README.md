@@ -13,6 +13,12 @@ For the decision tree, the most important features in housing price are, in orde
 6. GarageCars: Number of cars the garage can fit
 7. YearBuilt: Year the home was built
 
+![Feature Importance](feature_importance.png "Feature Importance")
+
+Predictions:
+
+![Model Predictions](rf_opt_preds.png "Model Predictions")
+
 ## Lessons Learned
 I struggled mightily to address the issue of categorical data in the test set having different values than the training set. Most of the time spent on this was cleaning the data and getting the feature set right. I did all of this to try and satisfy the requirements of a linear regression. After getting everything set to be able to use the linear regression, it turned out that the linear regression was way overfit on my training data and was useless on the testing data. I suspect this has to do with a number of null values and a very sparse set of categorical values. I think it might work out okay to drastically reduce the number of features when applying a linear regression.
 
